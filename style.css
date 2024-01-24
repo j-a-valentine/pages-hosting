@@ -1,0 +1,31 @@
+#top-section{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+#task-list {
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+    margin-bottom:100px;
+}
+
+.task {
+    padding:10px;
+    width:25%;
+    height:200px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    overflow:scroll;
+    transition: 0.3s;
+}
+
+.task:hover {
+    transform:scale(1.2);
+    cursor:pointer;
+}
+
+.deleted {
+    display:none;
+}
